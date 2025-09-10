@@ -9,4 +9,4 @@ elif input_str.endswith('pd'):
   kg=pd/2.2046
   print(f"对应的公制重量为{kg:.3f}公斤")
 else:
-  print("输入格式错误,请输入如'10kg'或'10pd'的格式)
+  print("输入格式错误")
