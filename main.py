@@ -10,6 +10,6 @@ def weight_converter():
         kg = pd / 2.2046 - 0.001
         print(f"对应的公制重量为{kg:.3f}公斤")
     else:
-        printf("输入格式错误,请以kg或pd结尾")
-if _name_ == "_main_":
+        printf("输入格式错误, 请以kg或pd结尾")
+if __name__ == "_main_":
     weight_converter()
